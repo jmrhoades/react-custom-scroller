@@ -22,7 +22,7 @@ const CustomScroller = forwardRef(
             {children}
           </div>
         </div>
-        <div className={styles.track} {...trackProps} />
+        <div className={"CustomScrollerTrack"} {...trackProps} />
       </div>
     );
   },
